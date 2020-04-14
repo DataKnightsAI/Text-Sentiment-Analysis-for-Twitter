@@ -2,5 +2,7 @@ data/GoogleNews-vectors-negative300.bin.gz
 data/GoogleNews-vectors-negative300.bin
 data/emoji2vec.bin
 
+milestone1/Patrick/gensim_word2vec_google_subset.bin
+
 .ipynb_checkpoints/
 __pycache__

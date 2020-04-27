@@ -1,0 +1,7 @@
+Fitting 3 folds for each of 128 candidates, totalling 384 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   31.8s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  5.0min
+[Parallel(n_jobs=-1)]: Done 384 out of 384 | elapsed: 13.0min finished
+Best Score:  0.8821920635107366
+Best Params:  {'C': 1, 'class_weight': {1: 0.4, 0: 0.6}, 'penalty': 'l1', 'solver': 'liblinear'}

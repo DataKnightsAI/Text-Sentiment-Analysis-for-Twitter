@@ -1,0 +1,18 @@
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=3,
+              max_features=None, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=14, min_samples_split=140,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              n_iter_no_change=None, presort='auto', random_state=0,
+              subsample=1.0, tol=0.0001, validation_fraction=0.1,
+              verbose=0, warm_start=False)
+Fitting 3 folds for each of 100 candidates, totalling 300 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:  3.3min
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed: 16.9min
+[Parallel(n_jobs=-1)]: Done 300 out of 300 | elapsed: 29.0min finished
+Model Name:  GradientBoostingClassifier
+Best Score:  0.864653979518611
+Best Params:  {'subsample': 0.9, 'n_estimators': 10, 'max_features': 'sqrt', 'max_depth': 8, 'loss': 'deviance', 'learning_rate': 0.15000000000000002, 'criterion': 'friedman_mse'}
+​

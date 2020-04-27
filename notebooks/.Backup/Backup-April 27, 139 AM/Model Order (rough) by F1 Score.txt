@@ -1,0 +1,11 @@
+knn
+dec tree
+svc
+gaussian
+log reg
+
+adaboost
+random
+gbm
+bagging
+stacking

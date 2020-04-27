@@ -1,0 +1,11 @@
+LogisticRegression(C=1, class_weight={1: 0.4, 0: 0.6}, dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=500,
+          multi_class='warn', n_jobs=None, penalty='l1', random_state=0,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
+Fitting 3 folds for each of 128 candidates, totalling 384 fits
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed:   30.7s
+[Parallel(n_jobs=-1)]: Done 192 tasks      | elapsed:  5.0min
+[Parallel(n_jobs=-1)]: Done 384 out of 384 | elapsed: 13.0min finished
+Best Score:  0.8821920635107366
+Best Params:  {'solver': 'liblinear', 'penalty': 'l1', 'class_weight': {1: 0.4, 0: 0.6}, 'C': 1}

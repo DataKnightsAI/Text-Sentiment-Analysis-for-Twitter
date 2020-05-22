@@ -6,3 +6,5 @@ milestone1/Patrick/gensim_word2vec_google_subset.bin
 
 .ipynb_checkpoints/
 __pycache__
+
+notebooks/bert/
